@@ -53,6 +53,10 @@ body {
     margin-bottom: 15px;
 }
 
+.resume__block:not(:first-child) {
+    border-bottom: 3px solid transparent;
+}
+
 
 /* Contact info styles */
 
@@ -244,7 +248,9 @@ body {
 }
 
 .additional-info__education-university-name {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .additional-info__languages {
