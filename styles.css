@@ -16,7 +16,7 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
     line-height: 1.5;
 
-    --primary-text-color: rgb(231, 199, 16);
+    --primary-text-color: #e7c710;
     --secondary-text-color: #034e14;
     --durability-text-color: #31383e9c;
     --icon-color: #6a737d;
@@ -101,6 +101,7 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact-info__item:not(:last-child) {
@@ -272,10 +273,6 @@ body {
 
 
 /* Animation */
-.contact-info__item {
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
 .contact-info__item:hover {
     transform: scale(1.05);
     color: var(--text-decoration-color);
